@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+
+
+int main() {
+    char A[1];
+    scanf("%s",&A);
+    
+    printf("%s",A);
+    return 0;
+}
+c언어에는 문자열 따로 저장 X, 문자의 배열로 저장함. 단어=1차원 문자 배열, 문장=2차원 문자 배열.
+문자열을 비교할때는 if문이 아니라 strcmp함수가 필요하며 import가 필요함.
